@@ -1,0 +1,57 @@
+body{
+
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px !important
+
+
+}
+
+.col-md{
+	margin: 10px;
+	margin-bottom: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+h2,h3,h1{
+font-family: 'Roboto', sans-serif;}
+
+.sheader{
+	background-color: #F2D718;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	margin: 20px
+}
+i{
+	color: green;
+}
+
+ul li ul li{
+	list-style: none
+}
+
+
+.logo{
+	margin:auto;
+	padding-top: 20%;
+	animation: yourAnimation 2s forwards 0s ease;
+}
+
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0) translateY(-20%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}
+
+
+}
