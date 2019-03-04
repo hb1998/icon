@@ -2,7 +2,8 @@ body{
 
 	margin: 0px;
 	padding: 0px;
-	margin-bottom: 10px !important
+	margin-bottom: 10px !important;
+	
 
 
 }
@@ -15,6 +16,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
+.cw{
+color: white
+}
 
 
 h2,h3,h1{
@@ -34,6 +40,31 @@ i{
 ul li ul li{
 	list-style: none
 }
+@media only screen and (max-width: 800px) {
+
+	.des{
+		display: none
+	}
+ 
+}
+
+@media only screen and (min-width: 800px) {
+
+	.mob{
+		display: none
+	}
+ 
+}
+
+footer h3,p{
+	text-align: center
+}
+
+footer p{
+margin-bottom: 5px
+}
+
+
 
 
 .logo{
@@ -54,4 +85,4 @@ ul li ul li{
 }
 
 
-}
+
