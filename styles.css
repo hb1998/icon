@@ -87,5 +87,19 @@ margin-bottom: 5px
         }
 }
 
+.date{
+    animation: date 1s forwards 0s ease;
 
+}
+
+@keyframes date{
+	0%{
+			transform: rotate(0) translateX(20px);
+			opacity: 0;
+			}
+	100%{
+			transform: rotate(0) translateX(0px);
+			opacity: 1;
+			}
+}
 
