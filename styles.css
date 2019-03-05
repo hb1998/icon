@@ -42,6 +42,7 @@ ul li ul li{
 }
 @media only screen and (max-width: 800px) {
 
+
 	.des{
 		display: none
 	}
@@ -49,6 +50,8 @@ ul li ul li{
 }
 
 @media only screen and (min-width: 800px) {
+
+
 
 	.mob{
 		display: none
