@@ -77,7 +77,7 @@ margin-bottom: 5px
 
 .logo{
 	margin:auto;
-	padding-top: 20%;
+	padding-top: 5%;
 	animation: yourAnimation 2s forwards 0s ease;
 }
 
@@ -99,11 +99,11 @@ margin-bottom: 5px
 
 @keyframes date{
 	0%{
-			transform: rotate(0) translateY(20px);
+			transform: rotate(0) translateY(50px) translateX(50px);
 			opacity: 0;
 			}
 	100%{
-			transform: rotate(0) translateX(0px);
+			transform: rotate(0) translateX(0px) translateX(0px);
 			opacity: 1;
 			}
 }
@@ -118,24 +118,26 @@ margin-bottom: 5px
 
 @keyframes th1{
     0%{
-        transform: rotate(0) translateX(-20px);
+        transform: rotate(0) translateX(-50px) translateY(50px);
         opacity: 0;
         }
     100%{
-        transform: rotate(0) translateX(0);
+        transform: rotate(0) translateX(0) translateY(0px);
         opacity: 1;
         }
 }
 
 @keyframes th2{
     0%{
-        transform: rotate(0) translateX(20px);
+        transform: rotate(0) translateX(40px) translateY(-60px);
         opacity: 0;
         }
     100%{
-        transform: rotate(0) translateX(0);
+        transform: rotate(0) translateX(0) translateY(0);
         opacity: 1;
         }
 }
+
+
 
 
