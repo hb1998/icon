@@ -16,13 +16,16 @@ html {
   scroll-behavior: smooth;
 }
 
-#national,#level,#sympo,#technical1{
+.national{
 	background:url('fire.jpg');
-	background-size: cover;
+	/* background-size: cover; */
+	background-size: 1300px;
 	background-repeat:no-repeat;
 	background-position: center;
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: fire 2.4s linear infinite; 
 	-webkit-animation: fire 2.4s linear infinite; 
 }
 
