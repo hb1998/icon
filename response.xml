@@ -1,4 +1,3 @@
 <Response>
 <Say voice="alice">Your friend is under a dangerous situation.a recorded clip from the scene is played to you</Say>
-<Play>https://hb1998.github.io/twilliotest/twillio%20test%20.mp3</Play>
 </Response>
